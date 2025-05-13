@@ -1,0 +1,49 @@
+<style>
+     fieldset{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    input{
+        margin:8px;
+        max-width:200px;
+    }
+    button{
+        max-width:100px;
+        margin:8px;
+        float:right;
+    }
+
+</style>
+<form action="comyroller.php" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend>login form</legend>
+    <!-- <lable for="input"Enter Text:</Label>-->
+        <input type="text" placeholder="Enter Text" name="input"/>
+        <input type="text" placeholder="password" name="input"/>
+
+
+    <button>submit</button>
+    </fieldset>
+</form>
+
+<form>
+    <fieldset>
+    <legend> other input content</legend>
+    <input type="date" />
+    <input type="number" />
+    <input type="checkbox" />
+    <input type="range" />
+    <input type="email" />
+    <input type="color" />
+    <input type="file" />
+    <input type="Radio" />
+    
+    
+
+    <select>
+        <option> Option 1 </option>
+        <option> Option 2 </option>
+        <option> Option 3 </option>
+    </select>
+</form>
